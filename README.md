@@ -50,7 +50,13 @@
     4. Spring에서 DB 데이터를 한번에 불러와서 처리를 하는 구조가 아니라 잦은 접속을 통해 데이터를 불러오는 구조를 취하고 있어서 여러명의 유저가 동시 접속시 Web 사이트의 성능적 문제가 의심
 - 구현
     
-    ![Untitled1](image/Untitled1.png)
+
+    
+    ![KakaoTalk_Image_2022-02-24-18-09-57](https://user-images.githubusercontent.com/89174775/155937704-173654cd-cb17-4b3d-b6c8-f2cc70bf976f.png)
+    ![Untitled1](image/Untitled1.png)    
+    ![KakaoTalk_Image_2022-02-24-18-09-59](https://user-images.githubusercontent.com/89174775/155937726-e0cf2468-76e4-4e44-b297-fc2b1790c1e4.png)
+
+    
 - git repository 구성
 	- Data : Raw_data
 	- main.py : 네이버 베이징 올림픽 뉴스 기사 크롤링 코드
