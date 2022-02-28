@@ -48,10 +48,10 @@
     2. Airflow,Crontab 등을 이용해 Scheduling을 하여 자동적으로 Data crawling과 Data Processing을 진행하려 했지만 올림픽이 먼저 끝나버려 Scheduling 적용을 할 수 없었던 점
     3. 설계 당시 기획은 반응형 Web을 제작하는 것이였지만 몇몇 부분에 있어서 Web 디자인적 문제로 해당 부분들은 고정된 Size로 제작
     4. Spring에서 DB 데이터를 한번에 불러와서 처리를 하는 구조가 아니라 잦은 접속을 통해 데이터를 불러오는 구조를 취하고 있어서 여러명의 유저가 동시 접속시 Web 사이트의 성능적 문제가 의심
+- 스토리
+    - 페이지에서 날짜를 선택후 날짜에 맞게 그날의 핫했던 키워드들을 워드클라우드로 나타내고 종목별 그날 언급이 많이 된 키워드들을 나타내줌
+    - 매일매일 모든 종목별로 키워드가 나타나지 않을 경우를 대비해서 이미지로 대체
 - 구현
-    
-
-    
     ![KakaoTalk_Image_2022-02-24-18-09-57](https://user-images.githubusercontent.com/89174775/155937704-173654cd-cb17-4b3d-b6c8-f2cc70bf976f.png)
     ![Untitled1](image/Untitled1.png)    
     ![KakaoTalk_Image_2022-02-24-18-09-59](https://user-images.githubusercontent.com/89174775/155937726-e0cf2468-76e4-4e44-b297-fc2b1790c1e4.png)
